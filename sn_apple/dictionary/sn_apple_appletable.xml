@@ -2,6 +2,7 @@
     <element label="appletable" max_length="40" name="sn_apple_appletable" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Applename" max_length="40" name="applename" type="glide_date"/>
         <element label="appleversion2" max_length="255" name="appleversion2" type="calendar_date_time"/>
+        <element label="applegitedit" max_length="255" name="applegitedit" type="string"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <index name="index">
             <element name="sys_class_name"/>
